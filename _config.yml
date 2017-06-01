@@ -12,7 +12,7 @@ favicon: /favicon.ico
 
 # For seo
 #I don't know what I should advertise
-keywords: 
+keywords:
 
 home_nav:
   - name: Blog
@@ -24,6 +24,9 @@ home_nav:
   - name: About me
     url: /about/
     target_blank: false
+  - name: My Aria2
+    url: http://45.79.103.183/aria2/
+    target_blank: true
 
 # config page nav
 page_nav:
@@ -159,7 +162,7 @@ project:
     name: Data visualizer
     url: https://amazon.com
     intro: "I made this for Amazon, but you can't see it!"
-    
+
 # =========================================================
 # RSS
 # =========================================================
