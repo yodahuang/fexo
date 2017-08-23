@@ -69,6 +69,7 @@ link_slogan:
   isShow: true # true|fase
   text: What's this?
 
+
 # set backtop show or hide
 backtop:
   home: false
@@ -95,14 +96,17 @@ post:
   header_align: CENTER # LEFT|CENTER
   showToc: true # true|false
   showComments: true
+  open_in_new_window: false
+  show_prev_next: true
 
 # =========================================================
 # Personal settings
 # =========================================================
 
-# Custom CSS style
+# Custom CSS style, 推荐把样式文件放在blog源码文件夹，而不是主题里面
 personal_style: /css/personal-style.css
 
+# 这个值取决于你得背景图片是深色还是浅色，深色用dark，浅色用light
 home_background_scheme: light # dark、light
 
 # custom font-family
@@ -122,8 +126,9 @@ google_analytics: UA-65976996-1
 
 # Comment service
 disqus_shortname: yodahuang
-# duoshuo_shortname: forsigner
 
+# 不算子,文章访问量统计和显示
+busuanzi: true
 
 # =========================================================
 # Page settings
