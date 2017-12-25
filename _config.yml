@@ -156,17 +156,37 @@ about:
 
 project:
   - type: personal
+    name: Cabot
+    url: https://mrsdprojects.ri.cmu.edu/2017teamg/
+    intro: An assistive robot for the visually impaired
+    youtube: 5ZCpoQdlMGI
+    detail: Click on the title to go to its own website for a more detailed explanation!
+    image_alt: Testing
+  - type: personal
+    name: Automous Navigation in Dynamic Environment
+    intro: A Robot that do SLAM and dynamic obstacle avoidence
+    youtube: p-G10atUjjI
+    detail: The robot implements the algorithm described in the paper <a href="https://web.eecs.umich.edu/~kuipers/papers/Park-iros-12.pdf">Robot Navigation with Model Predictive Equilibrium Point Control</a>
+  - type: personal
+    name: The Great Finger
+    intro: Smart Pointing detector with Stereo Vision
+    image: /images/the-great-finger.gif
+    image_alt: demo
+    detail: Detect and show where the lecturor is pointing at in lecture recordings with the help of stereo vision & machine learning.
+    extra: <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS__5y-ecv7jvSQWAWEfj3tfBZ5gudh0uIqVy2sfXvARnVVgcRWpHKySp_hXnf3KKodnT7BlhFPM752/embed?start=false&loop=false&delayms=3000" frameborder="0" width="498" height="295" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+  - type: personal
+    name: NFConnect
+    intro: Universal app and hardware solution for NFC devices
+    image: /images/nfc.gif
+    image_alt: demo
+    detail: The Android app communicate with microcontroller that I wrote the firmware on the coffee machine to set timers, brew coffee, etc.
+  - type: personal
     name: Pebble GRE Reminder
     url: https://yodahuang.github.io/Pebble-GRE-Word-Reminder/
     intro: A GRE reminder helper for Pebble
-  - type: personal
-    name: Mclickr
-    url: https://github.com/yodahuang/Mclicker
-    intro: iClickr online!
-  - type: company
-    name: Data visualizer
-    url: https://amazon.com
-    intro: "I made this for Amazon, but you can't see it!"
+    image: /images/pebble-gre-reminder.gif
+    detail: This is a appplication for helping reciting GRE words on Pebble smartwatches. The app is published in <a href="https://apps.getpebble.com/en_US/application/577b62526c21040179000074">Pebble App Store</a>. A detailed desciption can be found <a href="https://yodahuang.github.io/Pebble-GRE-Word-Reminder/">here</a>.
+    image_alt: the app in action
 
 # =========================================================
 # RSS
