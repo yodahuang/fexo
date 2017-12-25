@@ -157,9 +157,8 @@ about:
     icon: icon-user
     text_value:
     - "Yanda Huang，1995."
-    - "Currently a Junior student in Univerity of Michigan"
-    - "Major in Computer Engineering"
-    - "Still don't know where to dive deep in the future."
+    - "Master in Robotics Systems Development"
+    - "Carnegie Mellon University"
   - type: Github
     icon: icon-github
     text_key: Github
@@ -167,11 +166,11 @@ about:
     text_value_url: https://github.com/yodahuang
   - type: mail
     icon: icon-mail
-    text_key: Gmail
-    text_value: "yodaa@umich.edu"
+    text_key: E-mail
+    text_value: "yanda@cmu.edu"
   - type: location
     icon: icon-location
-    text_value: Ann Arbor & Shanghai
+    text_value: Pittsburgh
 
 project:
   - type: personal
